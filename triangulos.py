@@ -12,6 +12,10 @@ else:
 #classificar o triangulo
     #se todos iguais
     if a == b and b == c:
-        print("Equilatero")  #TODO: continuar aqui 
+        print("Equilatero") 
     #se dois iguais
+    elif a == b or a == c or b == c:
+        print("Isosceles")
     #se não 
+    else:
+        print("Escaleno")
